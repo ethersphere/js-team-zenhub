@@ -1,0 +1,171 @@
+# Difficulty category: Expected difficulty to solve the issue
+- name: dif:trivial
+  color: 'FFF0B5'
+  aliases: []
+  description: Can be confidently tackled by newcomers
+- name: dif:easy
+  color: 'FFE375'
+  aliases: []
+  description: Someone with a little familiarity can pick up
+- name: dif:medium
+  color: 'FFD737'
+  aliases: []
+  description: Prior experience is likely helpful
+- name: dif:hard
+  color: 'F8C600'
+  aliases: []
+  description: Having worked on the specific codebase is important
+- name: dif:expert
+  color: 'D9AD00'
+  aliases: []
+  description: Extensive knowledge (implications, ramifications) required
+
+# Environment category: To which environment is the issue linked
+- name: env:browser
+  color: 'c5def5'
+  aliases: []
+  description: Relates to browser environment
+- name: env:nodejs
+  color: 'c5def5'
+  aliases: []
+  description: Relates to NodeJS environment
+
+# Kind category: What type of goal is the issue aiming at.
+- name: kind:architecture
+  color: 'c7def8'
+  aliases: []
+  description: Core architecture of project
+- name: kind:bug
+  color: 'fc2929'
+  aliases: ['bug']
+  description: A bug in existing code (including security flaws)
+- name: kind:discussion
+  color: 'c7def8'
+  aliases: []
+  description: Topical discussion; usually not changes to codebase
+- name: kind:enhancement
+  color: 'c7def8'
+  aliases: ['enhancement']
+  description: A net-new feature or an improvement to an existing feature
+- name: kind:maintenance
+  color: 'c7def8'
+  aliases: []
+  description: Work required to avoid breaking changes or harm to project's status quo
+- name: kind:question
+  color: 'c7def8'
+  aliases: ['question']
+  description: A question or request for support
+- name: kind:refactor
+  color: 'c7def8'
+  aliases: []
+  description: Refactoring issue
+- name: kind:test
+  color: 'c7def8'
+  aliases: []
+  description: Testing work
+
+# Needs category: Specify if the issue has some needs that have to be addressed before working on it.
+- name: need:analysis
+  color: 'ededed'
+  aliases: []
+  description: Needs further analysis before proceeding
+- name: need:author-input
+  color: 'ededed'
+  aliases: []
+  description: Needs input from the original author
+- name: need:community-input
+  color: 'ededed'
+  aliases: []
+  description: Needs input from the wider community
+- name: need:maintainers-input
+  color: 'ededed'
+  aliases: []
+  description: Needs input from the current maintainer(s)
+- name: need:triage
+  color: 'ededed'
+  aliases: []
+  description: Needs initial labeling and prioritization
+
+# Priorities category
+- name: P0
+  color: 'b60205'
+  aliases: []
+  description: 'Critical: Tackled by core team ASAP'
+- name: P1
+  color: 'd93f0b'
+  aliases: []
+  description: 'High: Likely tackled by core team if no one steps up'
+- name: P2
+  color: 'e99695'
+  aliases: []
+  description: 'Medium: Good to have, but can wait until someone steps up'
+- name: P3
+  color: 'f9d0c4'
+  aliases: []
+  description: 'Low: Not priority right now'
+- name: P4
+  color: 'f9d0c4'
+  aliases: []
+  description: 'Very low priority'
+
+# Status category
+- name: status:blocked
+  color: 'E77E7F'
+  aliases: []
+  description: Unable to be worked further until needs are met (see 'need:*' category)
+- name: status:backlog
+  color: 'BCF059'
+  aliases: []
+  description: Conscious decision to pause or backlog
+- name: status:duplicate
+  color: 'E7FAC5'
+  aliases: ['duplicate']
+  description: This issue or pull request already exists
+- name: status:in-progress
+  color: 'BCF059'
+  aliases: []
+  description: In progress
+- name: status:inactive
+  color: 'E7FAC5'
+  aliases: []
+  description: No significant work in the previous month
+- name: status:ready
+  color: 'BCF059'
+  aliases: []
+  description: Ready to be worked
+
+# Type category
+- name: type:issue
+  color: 'ededed'
+  aliases: ['issue']
+  description:
+- name: type:pull-request
+  color: 'ededed'
+  aliases: ['pull-request']
+  description:
+
+# Others
+- name: dependencies
+  color: '0366d6'
+  aliases: []
+  description: Pull requests that update a dependency file
+- name: help wanted
+  color: '008672'
+  aliases: []
+  description: Seeking public contribution on this
+- name: good first issue
+  color: 'A16610'
+  aliases: []
+  description: Good for newcomers
+- name: dependencies
+  color: '0366d6'
+  aliases: []
+  description: Pull requests that update a dependency file
+- name: needs documentation
+  color: '4F92BD'
+  aliases: ['documentation']
+  description: The issue should not be closed before it is documented.
+- name: (ノಠ益ಠ)ノ彡┻━┻
+  color: 'd93f0b'
+  aliases: []
+  description: ...

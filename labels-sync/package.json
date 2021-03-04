@@ -1,0 +1,15 @@
+{
+  "name": "labels-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "github-label-sync --allow-added-labels --labels labels.yml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "github-label-sync": "^2.0.0"
+  }
+}
